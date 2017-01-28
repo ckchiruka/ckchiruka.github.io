@@ -206,7 +206,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 .highlight .ss { color: #90a959; }
 
-body { padding: 0px 0 20px 0px; margin: 0px; font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #f0e7d5; font-weight: normal; background: #252525; background-attachment: fixed !important; background: linear_gradient(#2a2a29, #1c1c1c); }
+body { padding: 0; margin: 0; font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #f0e7d5; font-weight: normal; background: #252525; background-attachment: fixed !important; background: linear_gradient(#2a2a29, #1c1c1c); }
 
 h1, h2, h3, h4, h5, h6 { color: #e8e8e8; margin: 0 0 10px; font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: normal; }
 
@@ -224,6 +224,25 @@ h3 { font-size: 18px; line-height: 24px; font-family: 'OpenSansRegular', "Helvet
 
 a { color: #ffcc00; font-weight: 400; text-decoration: none; }
 a:hover { color: #ffeb9b; }
+
+.btn {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.3rem;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
+  .btn + .btn {
+    margin-left: 1rem; }
+
+.btn:hover {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3); }
 
 a small { font-size: 11px; color: #666; margin-top: -0.6em; display: block; }
 
