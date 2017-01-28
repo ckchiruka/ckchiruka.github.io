@@ -269,6 +269,24 @@ section #title .credits { font-size: 11px; font-family: 'OpenSansRegular', "Helv
 section #title .credits.left { float: left; }
 section #title .credits.right { float: right; }
 
+.page-header {
+  color: #fff;
+  text-align: center;
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #159957); }
+
+@media screen and (min-width: 64em) {
+  .page-header {
+    padding: 2rem 6rem; } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .page-header {
+    padding: 1rem 4rem; } }
+
+@media screen and (max-width: 42em) {
+  .page-header {
+    padding: 1rem 1rem; } }
+
 @media print, screen and (max-width: 720px) { #title .credits { display: block; width: 100%; line-height: 30px; text-align: center; }
   #title .credits .left { float: none; display: block; }
   #title .credits .right { float: none; display: block; } }
